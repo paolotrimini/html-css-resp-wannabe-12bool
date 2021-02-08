@@ -1,0 +1,21 @@
+/* REGOLE GENERALI */
+
+.col-lg-12 {
+    background-color: orange;
+    height: 100px;
+    text-align: center;
+    line-height: 150px;
+    border: 1px solid black;
+}
+
+.col-lg-6 {
+    background-color: green;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.col-lg-4 {
+    background-color: lightskyblue;
+    height: 200px;
+    border: 1px solid black;
+}
