@@ -100,9 +100,6 @@ img {
     #steps .row, #why .row {
         padding-bottom: 20px;
     }
-    .row.title {
-        max-height: 30px;
-    }
 }
 
 /* MOBILE */
