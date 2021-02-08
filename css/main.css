@@ -1,34 +1,75 @@
 /* REGOLE GENERALI */
 
-.col-lg-12 {
-    background-color: orange;
-    height: 100px;
-    text-align: center;
-    line-height: 150px;
-    border: 1px solid black;
+
+/* DESKTOP */
+
+@media all and (min-width: 992px) {
+    .col-lg-12 {
+        background-color: orange;
+        height: 100px;
+        text-align: center;
+        line-height: 150px;
+        border: 1px solid black;
+    }
+
+    .col-lg-6 {
+        background-color: lightslategrey;
+        height: 300px;
+        border: 1px solid black;
+    }
+
+    .col-lg-4 {
+        background-color: lightskyblue;
+        height: 200px;
+        border: 1px solid black;
+    }
 }
 
-.col-lg-6 {
-    background-color: lightslategrey;
-    height: 300px;
-    border: 1px solid black;
+/* TABLET */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-12 {
+        background-color: red;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        border: 1px solid black;
+    }
+
+    .col-md-6 {
+        background-color: lightskyblue;
+        height: 300px;
+        border: 1px solid black;
+    }
+
+    .col-md-4 {
+        background-color: midnightblue;
+        height: 200px;
+        border: 1px solid black;
+    }
+
+    .col-md-12 {
+        background-color: greenyellow;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        border: 1px solid black;
+    }
+
 }
 
-.col-lg-4 {
-    background-color: lightskyblue;
-    height: 200px;
-    border: 1px solid black;
+/* MOBILE */
+
+@media all and (max-width: 767px) {
+
+    .col-xs-12 {
+        background-color: darkgoldenrod;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        border: 1px solid black;
+    }
 }
 
-.col-md-6 {
-    background-color: yellowgreen;
-    height: 200px;
-    border: 1px solid black;
-}
 
-.col-md-4 {
-    background-color: yellow;
-    height: 200px;
-    border: 1px solid black;
-
-}
