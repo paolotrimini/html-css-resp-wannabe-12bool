@@ -1,27 +1,100 @@
 /* REGOLE GENERALI */
+.row {
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+    width: 50%;
+    float: left;
+}
+
+#lezioni .row img {
+    /* per centrare orizzontalmente */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#lezioni {
+    text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+    float: left;
+    width: 33%;
+}
+
+#steps {
+    text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+    text-align: center;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+    width: 100%;
+    margin-top: 80px;
+}
+
+#why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+}
+
+/* COMMON */
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container.grey {
+    background-color: #f9f9f9;
+}
+
+img {
+    height: 200px;
+}
+
+.clear {
+    clear: both;
+}
 
 
 /* DESKTOP */
 
 @media all and (min-width: 992px) {
     .col-lg-12 {
-        background-color: orange;
+        /*background-color: orange;
         height: 100px;
         text-align: center;
         line-height: 150px;
-        border: 1px solid black;
+        border: 1px solid black;*/
     }
 
     .col-lg-6 {
-        background-color: lightslategrey;
+       /* background-color: lightslategrey;
         height: 300px;
-        border: 1px solid black;
+        border: 1px solid black;*/
     }
 
     .col-lg-4 {
-        background-color: lightskyblue;
+       /* background-color: lightskyblue;
         height: 200px;
-        border: 1px solid black;
+        border: 1px solid black;*/
     }
 }
 
@@ -30,31 +103,31 @@
 @media all and (min-width: 768px) and (max-width: 991px) {
 
     .col-md-12 {
-        background-color: red;
+       /* background-color: red;
         height: 100px;
         text-align: center;
         line-height: 100px;
-        border: 1px solid black;
+        border: 1px solid black;*/
     }
 
     .col-md-6 {
-        background-color: lightskyblue;
+     /*   background-color: lightskyblue;
         height: 300px;
-        border: 1px solid black;
+        border: 1px solid black;*/
     }
 
     .col-md-4 {
-        background-color: midnightblue;
+       /* background-color: midnightblue;
         height: 200px;
-        border: 1px solid black;
+        border: 1px solid black;*/
     }
 
     .col-md-12 {
-        background-color: greenyellow;
+     /*   background-color: greenyellow;
         height: 100px;
         text-align: center;
         line-height: 100px;
-        border: 1px solid black;
+        border: 1px solid black;*/
     }
 
 }
@@ -64,11 +137,11 @@
 @media all and (max-width: 767px) {
 
     .col-xs-12 {
-        background-color: darkgoldenrod;
+       /* background-color: darkgoldenrod;
         height: 100px;
         text-align: center;
         line-height: 100px;
-        border: 1px solid black;
+        border: 1px solid black;*/
     }
 }
 
