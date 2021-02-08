@@ -9,7 +9,7 @@
 }
 
 .col-lg-6 {
-    background-color: green;
+    background-color: lightslategrey;
     height: 300px;
     border: 1px solid black;
 }
@@ -18,4 +18,17 @@
     background-color: lightskyblue;
     height: 200px;
     border: 1px solid black;
+}
+
+.col-md-6 {
+    background-color: yellowgreen;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.col-md-4 {
+    background-color: yellow;
+    height: 200px;
+    border: 1px solid black;
+
 }
